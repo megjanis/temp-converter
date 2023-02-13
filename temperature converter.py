@@ -6,5 +6,5 @@ def temp_converter():
     fahrenheit = float(input("Enter temperature in Fahrenheit: "))
     celsius = (fahrenheit-32)/1.8
     print(str(fahrenheit) + " degree Fahrenheit is equal to " + str(celsius) + " degree Celsius.")
-
+temp_converter()
 
